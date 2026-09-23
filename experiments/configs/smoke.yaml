@@ -1,0 +1,6 @@
+run_id: smoke
+dataset: gsm8k
+limit: 2
+seed: 0
+k_counterfactual: 3
+operator: nullify

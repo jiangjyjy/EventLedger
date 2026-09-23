@@ -1,0 +1,45 @@
+# Credentials and private configuration
+.env
+.env.*
+!.env.example
+.carve_api_env
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+
+# Generated data, runs, and model artifacts
+artifacts/
+data/raw/
+data/repos/
+models/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.log
+*.jsonl.tmp
+
+# Python and local tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.vscode/
+.idea/
+.DS_Store
+._*
+
+# Work-in-progress and transport files
+.remote-edit/
+remote_mirror/
+*.patch
+*.orig
+*.rej
+*.swp
+*.bak*
